@@ -136,6 +136,8 @@ ggplot(intSteps, aes(as.POSIXct(interval, format = "%H:%M"), mean)) +
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+
+
 #Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
 ```r
